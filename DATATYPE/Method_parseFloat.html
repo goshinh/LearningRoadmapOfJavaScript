@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Method_parseFloat</title>
+    <script type="text/javascript">
+      var str = "1234abc",
+	      n1=90,
+		  n2=0101,
+		  n3=0xf,
+		  n4=0.70,
+		  n5=0.26e4,
+		  n6=5.2;
+		
+		alert(parseFloat(str));//1234
+		alert(parseFloat(n1));//90
+		alert(parseFloat(n2));//65
+		alert(parseFloat(n3));//15
+		alert(parseFloat(n4));//0.7
+		alert(parseFloat(n5));//2600
+		alert(parseFloat(n6));//5.2
+		       
+    </script>
+
+</head>
+<body>
+  
+</body>
+</html>
